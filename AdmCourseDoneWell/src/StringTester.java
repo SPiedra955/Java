@@ -2,10 +2,8 @@
 
 class StringTester {
  public static void main(String[] args) {
- String string= "";
  long startTime1 = System.currentTimeMillis();
  for (int i = 0; i < 100000; i++) {
- string += "a";
  }
  long endTime1 = System.currentTimeMillis();
  StringBuilder stringBuilder = new StringBuilder();
